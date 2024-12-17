@@ -1,0 +1,94 @@
+Package: pipes
+Version: 2.3.0-melodic
+Architecture: amd64
+Maintainer: Alen Alempijevic
+Installed-Size: 1358
+Depends: libc6 (>= 2.3.1-6), libgcc1 (>= 1:3.4.2-12), libc6 (>= 2.14), libgcc1 (>= 1:3.0), libstdc++6 (>= 6)
+Filename: ./pipes-2.3.0-melodic-Linux.deb
+Size: 304344
+MD5sum: 07d6c1591713245879553050747379b4
+SHA1: 9a4903c4b7c00e0fd4cc7c7b3bfc7f8fc57daffa
+SHA256: be5b5190c0b65968cc2fffe0304c84a8faa64e13026e3b5c0a9681ac71eecd22
+Section: devel
+Priority: optional
+Description: pipes built using CMake
+
+Package: pipes
+Version: 2.3.0-noetic
+Architecture: arm64
+Maintainer: Alen Alempijevic
+Installed-Size: 1660
+Depends: libc6 (>= 2.3.1-6), libgcc1 (>= 1:3.4.2-12), libc6 (>= 2.29), libgcc-s1 (>= 3.0), libstdc++6 (>= 9)
+Filename: ./pipes-2.3.0-noetic-arm64.deb
+Size: 340730
+MD5sum: 7b1fb2ee7938f098b9b3ad5a7ccc9b6b
+SHA1: ed28e8adf1d2ceceed592b4d5ebe3ee3b6e16bfd
+SHA256: 853a92bef4b4704788423a3f4e09ad228a3e12397155abffa7702528ffa4a7a2
+Section: devel
+Priority: optional
+Description: pipes built using CMake
+ Implementation of library to abstract communication with ROS and using Gazebo simulator.
+
+Package: pipes
+Version: 2.4.0-noetic
+Architecture: amd64
+Maintainer: Alen Alempijevic
+Installed-Size: 4006
+Depends: libc6 (>= 2.3.1-6), libgcc1 (>= 1:3.4.2-12), libc6 (>= 2.29), libgcc-s1 (>= 3.0), libstdc++6 (>= 9)
+Filename: ./pipes-2.4.0-noetic-Linux.deb
+Size: 1026536
+MD5sum: df0673613545cd7a679a9c06117511d8
+SHA1: 9b4b9efaadfcdadfa3bf38c3689f9077d41895d9
+SHA256: f3902e517beabce67b236cc70e33ef3ee6886a9de1f8c72f3e17a94e11f92dcb
+Section: devel
+Priority: optional
+Description: pipes built using CMake
+ Implementation of library to abstract communication with ROS and using Gazebo simulator.
+
+Package: pipes
+Version: 2.5.0-melodic
+Architecture: amd64
+Maintainer: Alen Alempijevic
+Installed-Size: 1360
+Depends: libc6 (>= 2.3.1-6), libgcc1 (>= 1:3.4.2-12), libc6 (>= 2.14), libgcc1 (>= 1:3.0), libstdc++6 (>= 6)
+Filename: ./pipes-2.5.0-melodic-Linux.deb
+Size: 310714
+MD5sum: 225718dca40cafb167f291a5ecc75d91
+SHA1: ee53711255a35899dc48b8ecf3cc03b584c0fe76
+SHA256: e0de3611856f4a3e53c4f5bcaab8e252540747028600c88baa151bd19612921c
+Section: devel
+Priority: optional
+Description: pipes built using CMake
+
+Package: pipes
+Version: 2.5.0-noetic
+Architecture: arm64
+Maintainer: Alen Alempijevic
+Installed-Size: 1673
+Depends: libc6 (>= 2.3.1-6), libgcc1 (>= 1:3.4.2-12), libc6 (>= 2.29), libgcc-s1 (>= 3.0), libstdc++6 (>= 9)
+Filename: ./pipes-2.5.0-noetic-arm64.deb
+Size: 345918
+MD5sum: a1f9c2db1115204a4f6f880cddf71e1e
+SHA1: f73ff08f8cbf0528b96253027b9e2c504b2bb5c8
+SHA256: eea8becde4cedcd063ce0e5d8b84c9daf9c9fd7552e1f8c877fb767f4d91a0a1
+Section: devel
+Priority: optional
+Description: pipes built using CMake
+ Implementation of library to abstract communication with ROS and using Gazebo simulator.
+
+Package: pipes
+Version: 2.5.0-noetic
+Architecture: amd64
+Maintainer: Alen Alempijevic
+Installed-Size: 4051
+Depends: libc6 (>= 2.3.1-6), libgcc1 (>= 1:3.4.2-12), libc6 (>= 2.29), libgcc-s1 (>= 3.0), libstdc++6 (>= 9)
+Filename: ./pipes-2.5.0-noetic-Linux.deb
+Size: 1043426
+MD5sum: c1bf8a2ec9ba7b070265220235fb720c
+SHA1: a6e1b4a38a44ecaca04f5625c0d09444a7e1d89b
+SHA256: 6ee22a9328d8ca982e64d63bc26b2439edd97c9af9ab2d0c42fe0ae19beb501d
+Section: devel
+Priority: optional
+Description: pipes built using CMake
+ Implementation of library to abstract communication with ROS and using Gazebo simulator.
+
