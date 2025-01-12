@@ -1,1 +1,1 @@
-deb [signed-by=/etc/apt/trusted.gpg.d/ppa.gpg] https://github.com.au/41012/ppa ./
+deb [signed-by=/etc/apt/trusted.gpg.d/my_ppa.gpg] https://41012.github.io/ppa/ubuntu ./
