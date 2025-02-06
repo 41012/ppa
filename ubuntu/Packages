@@ -13,6 +13,21 @@ Section: devel
 Priority: optional
 Description: Implementation of library for PFMS to abstract communication with ROS and using Gazebo simulator.
 
+Package: ros-humble-audibot
+Version: 0.2.1-0jammy
+Architecture: amd64
+Maintainer: Micho Radovnikovich <mradov@gmail.com>
+Installed-Size: 41
+Depends: ros-humble-audibot-description, ros-humble-audibot-gazebo
+Filename: ./ros-humble-audibot_0.2.1-0jammy_amd64.deb
+Size: 5102
+MD5sum: 106b666230abec396ce28c6261b5578b
+SHA1: c26be004ab4292bee365da567ee322ebed4b82d8
+SHA256: a26d1aab19f51603c6e9995bf1f4bf4ca9706c7c05800c8fb9447e63e875f322
+Section: misc
+Priority: optional
+Description: Metapackage for audibot
+
 Package: ros-humble-audibot-description
 Version: 0.2.1-0jammy
 Architecture: amd64
@@ -27,4 +42,19 @@ SHA256: 230538551203c87669bb9f61f843494b9d02a2b377187c16dfe023af9d22f19e
 Section: misc
 Priority: optional
 Description: Meshes and URDF descriptions for audibot
+
+Package: ros-humble-audibot-gazebo
+Version: 0.2.1-0jammy
+Architecture: amd64
+Maintainer: Micho Radovnikovich <mradov@gmail.com>
+Installed-Size: 1023
+Depends: libboost-thread1.74.0 (>= 1.74.0), libc6 (>= 2.34), libgazebo11 (>= 11.10.2+dfsg), libgcc-s1 (>= 3.3.1), libsdformat9-9 (>= 9.7.0+ds), libstdc++6 (>= 11), ros-humble-audibot-description, ros-humble-gazebo-dev, ros-humble-gazebo-msgs, ros-humble-gazebo-ros, ros-humble-geometry-msgs, ros-humble-nav-msgs, ros-humble-rclcpp, ros-humble-robot-state-publisher, ros-humble-rviz2, ros-humble-tf2-geometry-msgs, ros-humble-tf2-ros
+Filename: ./ros-humble-audibot-gazebo_0.2.1-0jammy_amd64.deb
+Size: 203086
+MD5sum: 2d89384748e9201507da0494bdcde766
+SHA1: 3c41f2c85b38404be61d9c02d47c1a3827271de0
+SHA256: 2deb8aa31a4b1d11335ba580de7cb15799420242a18bf46361793f8b9b8f1e7a
+Section: misc
+Priority: optional
+Description: Gazebo model plugin to simulate Audibot
 
