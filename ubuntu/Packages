@@ -5,10 +5,10 @@ Maintainer: Alen Alempijevic
 Installed-Size: 52530
 Depends: ros-humble-gazebo-ros (>= 3.6.0)
 Filename: ./pfms-ros-integration_3.0.6_amd64.deb
-Size: 8144680
-MD5sum: c2aedc5bcc92879298d6c4869e6543d5
-SHA1: 4c4154232bdd727abf5ff3f36408ad54dd3b3163
-SHA256: aa89117469a3ae32e13dab3e4b412f8c46f116257fb988d5ae71f7b26f8e43c6
+Size: 8144692
+MD5sum: 9304b8b99112645239f90ebf127d321c
+SHA1: d7262367fe70826402035dd1696f26de0beff971
+SHA256: 67cea567db405e56a9068fa4c4437f2b8567670c88ac10bd603370d815f2ba64
 Section: devel
 Priority: optional
 Description: Implementation of library for PFMS to abstract communication with ROS and using Gazebo simulator.
