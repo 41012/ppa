@@ -105,6 +105,21 @@ Priority: optional
 Homepage: http://ros.org/wiki/husky_gazebo
 Description: Clearpath Husky Simulator bringup
 
+Package: ros-humble-pfms
+Version: 0.2.0-0jammy
+Architecture: amd64
+Maintainer: Alen Alempijevic <Alen.Alempijevic@uts.edu.au>
+Installed-Size: 40939
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), ros-humble-audibot, ros-humble-gazebo-msgs, ros-humble-husky-gazebo, ros-humble-nav-msgs, ros-humble-rclcpp, ros-humble-rclcpp-components, ros-humble-sensor-msgs, ros-humble-sjtu-drone-bringup, ros-humble-sjtu-drone-control, ros-humble-sjtu-drone-description, ros-humble-std-msgs, ros-humble-std-srvs, ros-humble-tf2, ros-humble-tf2-geometry-msgs, ros-humble-tf2-ros
+Filename: ./ros-humble-pfms_0.2.0-0jammy_amd64.deb
+Size: 35382116
+MD5sum: 550ccc9a7c090ed73ad368e0788f8e5e
+SHA1: 1e4f8924f3b0051367d8760a6f5304fa1db90c5a
+SHA256: f701d1dc6d8ab5cdcfff7bee5aeab94bfbdf0570fe38735f1e40beb85e324a4f
+Section: misc
+Priority: optional
+Description: The pfms_connector package makes a bridge between ROS2 and PFMS libraries
+
 Package: ros-humble-sjtu-drone-bringup
 Version: 0.0.0-0jammy
 Architecture: amd64
