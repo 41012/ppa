@@ -13,6 +13,21 @@ Section: devel
 Priority: optional
 Description: Implementation of library for PFMS to abstract communication with ROS and using Gazebo simulator.
 
+Package: pfms-ros-integration
+Version: 3.0.7
+Architecture: amd64
+Maintainer: Alen Alempijevic
+Installed-Size: 19610
+Depends: ros-humble-gazebo-ros (>= 3.6.0)
+Filename: ./pfms-ros-integration_3.0.7_amd64.deb
+Size: 2874408
+MD5sum: d381a44b7d4deae60d961c468a64bef2
+SHA1: 19274047a061122b40c5a68d0816521efef8474d
+SHA256: 95f4fc1694a462813937d8ca3012c334b19f82fff858285e49b0bae23ac22078
+Section: devel
+Priority: optional
+Description: Implementation of library for PFMS to abstract communication with ROS and using Gazebo simulator.
+
 Package: ros-humble-audibot
 Version: 0.2.1-0jammy
 Architecture: amd64
@@ -39,6 +54,21 @@ Size: 317726
 MD5sum: de7c702e41c93e6d7ab45259d8c97df7
 SHA1: f180ac636804a29d0ed3b118c0b7587d5671446a
 SHA256: 230538551203c87669bb9f61f843494b9d02a2b377187c16dfe023af9d22f19e
+Section: misc
+Priority: optional
+Description: Meshes and URDF descriptions for audibot
+
+Package: ros-humble-audibot-description
+Version: 0.2.2-0jammy
+Architecture: amd64
+Maintainer: Micho Radovnikovich <mradov@gmail.com>
+Installed-Size: 2386
+Depends: ros-humble-gazebo-plugins, ros-humble-gazebo-ros-pkgs, ros-humble-joint-state-publisher, ros-humble-joint-state-publisher-gui, ros-humble-robot-state-publisher, ros-humble-urdf, ros-humble-xacro
+Filename: ./ros-humble-audibot-description_0.2.2-0jammy_amd64.deb
+Size: 317926
+MD5sum: 2f108231ca20d2caa9f53e07afbc2890
+SHA1: ebd7512a440d0579a7ac23564d73d47ff11e657b
+SHA256: aa28a07896ec496e513b2e5f7353c1130d4274cf51ea41db005a5222c9d89e1b
 Section: misc
 Priority: optional
 Description: Meshes and URDF descriptions for audibot
@@ -89,6 +119,22 @@ Priority: optional
 Homepage: http://ros.org/wiki/husky_description
 Description: Clearpath Husky URDF description
 
+Package: ros-humble-husky-description
+Version: 1.0.1-0jammy
+Architecture: amd64
+Maintainer: Tony Baltovski <tbaltovski@clearpathrobotics.com>
+Installed-Size: 8402
+Depends: ros-humble-urdf
+Filename: ./ros-humble-husky-description_1.0.1-0jammy_amd64.deb
+Size: 1827578
+MD5sum: 3ed7d3705a526803406228781f070596
+SHA1: cc87795a1e9dfc873d575bf2990eaadfb4e77544
+SHA256: 6dac9cfec56a62222976cb792009fba3f26fd1a98d26eede37bfe789344daf42
+Section: misc
+Priority: optional
+Homepage: http://ros.org/wiki/husky_description
+Description: Clearpath Husky URDF description
+
 Package: ros-humble-husky-gazebo
 Version: 1.0.0-0jammy
 Architecture: amd64
@@ -116,6 +162,21 @@ Size: 35382116
 MD5sum: 550ccc9a7c090ed73ad368e0788f8e5e
 SHA1: 1e4f8924f3b0051367d8760a6f5304fa1db90c5a
 SHA256: f701d1dc6d8ab5cdcfff7bee5aeab94bfbdf0570fe38735f1e40beb85e324a4f
+Section: misc
+Priority: optional
+Description: The pfms_connector package makes a bridge between ROS2 and PFMS libraries
+
+Package: ros-humble-pfms
+Version: 0.3.0-0jammy
+Architecture: amd64
+Maintainer: Alen Alempijevic <Alen.Alempijevic@uts.edu.au>
+Installed-Size: 40944
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), ros-humble-audibot, ros-humble-gazebo-msgs, ros-humble-husky-gazebo, ros-humble-nav-msgs, ros-humble-rclcpp, ros-humble-rclcpp-components, ros-humble-sensor-msgs, ros-humble-sjtu-drone-bringup, ros-humble-sjtu-drone-control, ros-humble-sjtu-drone-description, ros-humble-std-msgs, ros-humble-std-srvs, ros-humble-tf2, ros-humble-tf2-geometry-msgs, ros-humble-tf2-ros
+Filename: ./ros-humble-pfms_0.3.0-0jammy_amd64.deb
+Size: 35380996
+MD5sum: 21303b39f2d0c43a0dd95775ffdc436d
+SHA1: 7462978300c52d9abb59f5d485bf908ffb3ce9d5
+SHA256: aed5f5591f6e76018bffdae149ca1c23c6511da07af9290a49a19d5bf5db46a5
 Section: misc
 Priority: optional
 Description: The pfms_connector package makes a bridge between ROS2 and PFMS libraries
