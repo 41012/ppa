@@ -28,6 +28,21 @@ Section: devel
 Priority: optional
 Description: Implementation of library for PFMS to abstract communication with ROS and using Gazebo simulator.
 
+Package: pfms-ros-integration
+Version: 3.0.8
+Architecture: amd64
+Maintainer: Alen Alempijevic
+Installed-Size: 53163
+Depends: ros-humble-gazebo-ros (>= 3.6.0)
+Filename: ./pfms-ros-integration_3.0.8_amd64.deb
+Size: 8217384
+MD5sum: 7c00583a2868e0184fbc39e48ca6ec82
+SHA1: e9dd8d0ab9b35071505644b91bc874d40dcadfa4
+SHA256: 4fc5a54c2e93ec82c0854aa26d7b577ce37a870819acb14d884e77d2961cb2d6
+Section: devel
+Priority: optional
+Description: Implementation of library for PFMS to abstract communication with ROS and using Gazebo simulator.
+
 Package: ros-humble-audibot
 Version: 0.2.1-0jammy
 Architecture: amd64
