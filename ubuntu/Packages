@@ -88,6 +88,21 @@ Section: misc
 Priority: optional
 Description: Meshes and URDF descriptions for audibot
 
+Package: ros-humble-audibot-description
+Version: 0.2.3-0jammy
+Architecture: amd64
+Maintainer: Micho Radovnikovich <mradov@gmail.com>
+Installed-Size: 2387
+Depends: ros-humble-gazebo-plugins, ros-humble-gazebo-ros-pkgs, ros-humble-joint-state-publisher, ros-humble-joint-state-publisher-gui, ros-humble-robot-state-publisher, ros-humble-urdf, ros-humble-xacro
+Filename: ./ros-humble-audibot-description_0.2.3-0jammy_amd64.deb
+Size: 317874
+MD5sum: a99885e86c46cf9d60c6ac3d586ef534
+SHA1: 32342c0425908c33966fac538922fa33660fbfea
+SHA256: 19cda0c32be84c6de32216f493795fd85f47df327858cf47330bc953550a3cc1
+Section: misc
+Priority: optional
+Description: Meshes and URDF descriptions for audibot
+
 Package: ros-humble-audibot-gazebo
 Version: 0.2.1-0jammy
 Architecture: amd64
@@ -196,6 +211,21 @@ Section: misc
 Priority: optional
 Description: The pfms_connector package makes a bridge between ROS2 and PFMS libraries
 
+Package: ros-humble-pfms
+Version: 0.3.1-0jammy
+Architecture: amd64
+Maintainer: Alen Alempijevic <Alen.Alempijevic@uts.edu.au>
+Installed-Size: 41802
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), ros-humble-audibot, ros-humble-gazebo-msgs, ros-humble-husky-gazebo, ros-humble-nav-msgs, ros-humble-rclcpp, ros-humble-rclcpp-components, ros-humble-sensor-msgs, ros-humble-sjtu-drone-bringup, ros-humble-sjtu-drone-control, ros-humble-sjtu-drone-description, ros-humble-std-msgs, ros-humble-std-srvs, ros-humble-tf2, ros-humble-tf2-geometry-msgs, ros-humble-tf2-ros
+Filename: ./ros-humble-pfms_0.3.1-0jammy_amd64.deb
+Size: 35481124
+MD5sum: 3062ccff7f3c458d6de8f56709215502
+SHA1: 882158e5602ba78ffd2aaf20c66450dc23a118d0
+SHA256: beb941389ba1d2e3c674bceb1e21fdf1194d89c383fffeb8897509b37b883b74
+Section: misc
+Priority: optional
+Description: The pfms_connector package makes a bridge between ROS2 and PFMS libraries
+
 Package: ros-humble-sjtu-drone-bringup
 Version: 0.0.0-0jammy
 Architecture: amd64
@@ -237,6 +267,21 @@ Size: 295622
 MD5sum: 69fadfbc37a07404330a4e8c98c74bcd
 SHA1: d4d1eae94ca28ae4917c229b72d2bc1b99f72108
 SHA256: 0dabb88aea122e2973dd356a2931452795cddf716bf27d573f24289a86e11ef2
+Section: misc
+Priority: optional
+Description: TODO: Package description
+
+Package: ros-humble-sjtu-drone-description
+Version: 0.0.1-0jammy
+Architecture: amd64
+Maintainer: Georg Novotny <georg.novtony@aon.at>
+Installed-Size: 1803
+Depends: libboost-thread1.74.0 (>= 1.74.0), libc6 (>= 2.34), libgazebo11 (>= 11.10.2+dfsg), libgcc-s1 (>= 3.3.1), libsdformat9-9 (>= 9.7.0+ds), libstdc++6 (>= 11), libtbb12 (>= 2021.4.0), ros-humble-gazebo-dev, ros-humble-gazebo-plugins, ros-humble-gazebo-ros, ros-humble-geometry-msgs, ros-humble-nav-msgs, ros-humble-rclcpp, ros-humble-sensor-msgs, ros-humble-std-msgs, ros-humble-tf2-geometry-msgs, ros-humble-tf2-ros
+Filename: ./ros-humble-sjtu-drone-description_0.0.1-0jammy_amd64.deb
+Size: 296644
+MD5sum: 32927b2950e1533747801ec7a0cd130d
+SHA1: 641db4b33ad1bb1b018e787bb4c5dbce40013b43
+SHA256: 1d99a111147f02a8764dc2233f737a35b5e0ad28693d0d33375af0443e2d60f8
 Section: misc
 Priority: optional
 Description: TODO: Package description
