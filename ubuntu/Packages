@@ -200,13 +200,13 @@ Package: ros-humble-pfms
 Version: 0.3.1-0jammy
 Architecture: amd64
 Maintainer: Alen Alempijevic <Alen.Alempijevic@uts.edu.au>
-Installed-Size: 47736
+Installed-Size: 47770
 Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), ros-humble-audibot, ros-humble-gazebo-msgs, ros-humble-husky-gazebo, ros-humble-nav-msgs, ros-humble-rclcpp, ros-humble-rclcpp-components, ros-humble-sensor-msgs, ros-humble-sjtu-drone-bringup, ros-humble-sjtu-drone-control, ros-humble-sjtu-drone-description, ros-humble-std-msgs, ros-humble-std-srvs, ros-humble-tf2, ros-humble-tf2-geometry-msgs, ros-humble-tf2-ros
 Filename: ./ros-humble-pfms_0.3.1-0jammy_amd64.deb
-Size: 36363968
-MD5sum: d860f36d865c4023a17a98c4a74189bb
-SHA1: 3eca44a156963b6719bc479c31bf8b35d6f2afdd
-SHA256: 270f5fc9652ecaef853c1ad4209e4444c50d2e5cbe533a5444ca053908b96e44
+Size: 36364590
+MD5sum: b2d6503203b1111014b7e8d65d3b718e
+SHA1: cf9315643dcf793fdfca5c79e26154c56f5e83ea
+SHA256: 8b147209a12426a90de80e6ee08b4d2129618bd348cbf11aec52d8672d8e90bf
 Section: misc
 Priority: optional
 Description: The pfms_connector package makes a bridge between ROS2 and PFMS libraries
