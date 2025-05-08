@@ -196,6 +196,21 @@ Section: misc
 Priority: optional
 Description: The pfms_connector package makes a bridge between ROS2 and PFMS libraries
 
+Package: ros-humble-pfms
+Version: 0.3.1-0jammy
+Architecture: amd64
+Maintainer: Alen Alempijevic <Alen.Alempijevic@uts.edu.au>
+Installed-Size: 47736
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), ros-humble-audibot, ros-humble-gazebo-msgs, ros-humble-husky-gazebo, ros-humble-nav-msgs, ros-humble-rclcpp, ros-humble-rclcpp-components, ros-humble-sensor-msgs, ros-humble-sjtu-drone-bringup, ros-humble-sjtu-drone-control, ros-humble-sjtu-drone-description, ros-humble-std-msgs, ros-humble-std-srvs, ros-humble-tf2, ros-humble-tf2-geometry-msgs, ros-humble-tf2-ros
+Filename: ./ros-humble-pfms_0.3.1-0jammy_amd64.deb
+Size: 36363968
+MD5sum: d860f36d865c4023a17a98c4a74189bb
+SHA1: 3eca44a156963b6719bc479c31bf8b35d6f2afdd
+SHA256: 270f5fc9652ecaef853c1ad4209e4444c50d2e5cbe533a5444ca053908b96e44
+Section: misc
+Priority: optional
+Description: The pfms_connector package makes a bridge between ROS2 and PFMS libraries
+
 Package: ros-humble-sjtu-drone-bringup
 Version: 0.0.0-0jammy
 Architecture: amd64
@@ -237,6 +252,21 @@ Size: 295622
 MD5sum: 69fadfbc37a07404330a4e8c98c74bcd
 SHA1: d4d1eae94ca28ae4917c229b72d2bc1b99f72108
 SHA256: 0dabb88aea122e2973dd356a2931452795cddf716bf27d573f24289a86e11ef2
+Section: misc
+Priority: optional
+Description: TODO: Package description
+
+Package: ros-humble-sjtu-drone-description
+Version: 0.0.1-0jammy
+Architecture: amd64
+Maintainer: Georg Novotny <georg.novtony@aon.at>
+Installed-Size: 1802
+Depends: libboost-thread1.74.0 (>= 1.74.0), libc6 (>= 2.34), libgazebo11 (>= 11.10.2+dfsg), libgcc-s1 (>= 3.3.1), libsdformat9-9 (>= 9.7.0+ds), libstdc++6 (>= 11), libtbb12 (>= 2021.4.0), ros-humble-gazebo-dev, ros-humble-gazebo-plugins, ros-humble-gazebo-ros, ros-humble-geometry-msgs, ros-humble-nav-msgs, ros-humble-rclcpp, ros-humble-sensor-msgs, ros-humble-std-msgs, ros-humble-tf2-geometry-msgs, ros-humble-tf2-ros
+Filename: ./ros-humble-sjtu-drone-description_0.0.1-0jammy_amd64.deb
+Size: 295530
+MD5sum: b40875b931da33b874c391671d5b1940
+SHA1: e02d63c0cca719803b840517450521767cd381ee
+SHA256: b42255772ac155fb8c39aaa3babf6c63bcb8acd9a7ff131f67f81ade1d07b0bf
 Section: misc
 Priority: optional
 Description: TODO: Package description
