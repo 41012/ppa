@@ -1,49 +1,4 @@
 Package: pfms-ros-integration
-Version: 3.0.6
-Architecture: amd64
-Maintainer: Alen Alempijevic
-Installed-Size: 52530
-Depends: ros-humble-gazebo-ros (>= 3.6.0)
-Filename: ./pfms-ros-integration_3.0.6_amd64.deb
-Size: 8144692
-MD5sum: 9304b8b99112645239f90ebf127d321c
-SHA1: d7262367fe70826402035dd1696f26de0beff971
-SHA256: 67cea567db405e56a9068fa4c4437f2b8567670c88ac10bd603370d815f2ba64
-Section: devel
-Priority: optional
-Description: Implementation of library for PFMS to abstract communication with ROS and using Gazebo simulator.
-
-Package: pfms-ros-integration
-Version: 3.0.7
-Architecture: amd64
-Maintainer: Alen Alempijevic
-Installed-Size: 19610
-Depends: ros-humble-gazebo-ros (>= 3.6.0)
-Filename: ./pfms-ros-integration_3.0.7_amd64.deb
-Size: 2874408
-MD5sum: d381a44b7d4deae60d961c468a64bef2
-SHA1: 19274047a061122b40c5a68d0816521efef8474d
-SHA256: 95f4fc1694a462813937d8ca3012c334b19f82fff858285e49b0bae23ac22078
-Section: devel
-Priority: optional
-Description: Implementation of library for PFMS to abstract communication with ROS and using Gazebo simulator.
-
-Package: pfms-ros-integration
-Version: 3.0.8
-Architecture: amd64
-Maintainer: Alen Alempijevic
-Installed-Size: 52571
-Depends: ros-humble-gazebo-ros (>= 3.6.0)
-Filename: ./pfms-ros-integration_3.0.8_amd64.deb
-Size: 8156218
-MD5sum: 9b3496172ddc775f7f97c761f2325361
-SHA1: efc9118435f9028ee2b66db046a7cc2bc55aa113
-SHA256: d7e9daa0452ddaa81e265c7c871293bd55eb1b222e3bcba0653fb6f280d3205d
-Section: devel
-Priority: optional
-Description: Implementation of library for PFMS to abstract communication with ROS and using Gazebo simulator.
-
-Package: pfms-ros-integration
 Version: 3.1.0
 Architecture: amd64
 Maintainer: Alen Alempijevic
@@ -54,6 +9,21 @@ Size: 9306502
 MD5sum: 037cd409d2438def324cd76b40fc7cc5
 SHA1: 619ddab46d8ba2c0a61fd66c14bc2071a413e3aa
 SHA256: 10294a570dd76ea63448d0ba20b206881a3e8de9ecb9055aefa340988888bb8d
+Section: devel
+Priority: optional
+Description: Implementation of library for PFMS to abstract communication with ROS and using Gazebo simulator.
+
+Package: pfms-ros-integration
+Version: 3.1.1
+Architecture: amd64
+Maintainer: Alen Alempijevic
+Installed-Size: 43163
+Depends: ros-humble-ros-ign (>= 0.244.22)
+Filename: ./pfms-ros-integration_3.1.1_amd64.deb
+Size: 7441286
+MD5sum: 23589af08f92168e07c9299c154e6eca
+SHA1: 35fa5676bfee74863599f1d045399234eab1b716
+SHA256: b6017e522172f3e24100c56d22aa87e2259884c409c6bdd3a44b2ba9fe787fe0
 Section: devel
 Priority: optional
 Description: Implementation of library for PFMS to abstract communication with ROS and using Gazebo simulator.
@@ -147,6 +117,21 @@ Section: misc
 Priority: optional
 Description: Gazebo model plugin to simulate Audibot
 
+Package: ros-humble-audibot-gazebo
+Version: 0.2.3-0jammy
+Architecture: amd64
+Maintainer: Micho Radovnikovich <mradov@gmail.com>
+Installed-Size: 418
+Depends: libc6 (>= 2.32), libgcc-s1 (>= 3.3.1), libignition-common4 (>= 4.8.0), libignition-gazebo6 (>= 6.17.1), libignition-math6 (>= 6.15.1), libignition-msgs8 (>= 8.7.0), libignition-transport11 (>= 11.4.2), libprotobuf23 (>= 3.12.4), libsdformat12 (>= 12.9.0), libstdc++6 (>= 11), ros-humble-audibot-description, ros-humble-ignition-cmake2-vendor, ros-humble-ros-ign
+Filename: ./ros-humble-audibot-gazebo_0.2.3-0jammy_amd64.deb
+Size: 107738
+MD5sum: 62f57a650d58314ab9c421841c7024f8
+SHA1: 4e817a6792f2d9bb3c5e3c604d26b78edd58b7e3
+SHA256: 00a03e787524fcdd36f7a738c6987308cd1b984971216980e6a6512af3d2bccd
+Section: misc
+Priority: optional
+Description: Gazebo model plugin to simulate Audibot
+
 Package: ros-humble-husky-control
 Version: 1.0.0-0jammy
 Architecture: amd64
@@ -161,22 +146,6 @@ SHA256: 61963eca1c7aba10efae6161e1e89c18d517bda5f3663b961177b7b6deea9799
 Section: misc
 Priority: optional
 Description: Clearpath Husky controller configurations
-
-Package: ros-humble-husky-description
-Version: 1.0.0-0jammy
-Architecture: amd64
-Maintainer: Tony Baltovski <tbaltovski@clearpathrobotics.com>
-Installed-Size: 8400
-Depends: ros-humble-urdf
-Filename: ./ros-humble-husky-description_1.0.0-0jammy_amd64.deb
-Size: 1827918
-MD5sum: c76737488c7286171a2054441e431c84
-SHA1: a764e8c9f88c2687812ef92fc9f244bc76785fc3
-SHA256: c7c5a6c5485e8c9a57c986b8afe01f5be8014c459a73f5612102a272c479867f
-Section: misc
-Priority: optional
-Homepage: http://ros.org/wiki/husky_description
-Description: Clearpath Husky URDF description
 
 Package: ros-humble-husky-description
 Version: 1.0.1-0jammy
@@ -226,36 +195,6 @@ Priority: optional
 Description: Husky Gazebo Simulator
 
 Package: ros-humble-pfms
-Version: 0.2.0-0jammy
-Architecture: amd64
-Maintainer: Alen Alempijevic <Alen.Alempijevic@uts.edu.au>
-Installed-Size: 40939
-Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), ros-humble-audibot, ros-humble-gazebo-msgs, ros-humble-husky-gazebo, ros-humble-nav-msgs, ros-humble-rclcpp, ros-humble-rclcpp-components, ros-humble-sensor-msgs, ros-humble-sjtu-drone-bringup, ros-humble-sjtu-drone-control, ros-humble-sjtu-drone-description, ros-humble-std-msgs, ros-humble-std-srvs, ros-humble-tf2, ros-humble-tf2-geometry-msgs, ros-humble-tf2-ros
-Filename: ./ros-humble-pfms_0.2.0-0jammy_amd64.deb
-Size: 35382116
-MD5sum: 550ccc9a7c090ed73ad368e0788f8e5e
-SHA1: 1e4f8924f3b0051367d8760a6f5304fa1db90c5a
-SHA256: f701d1dc6d8ab5cdcfff7bee5aeab94bfbdf0570fe38735f1e40beb85e324a4f
-Section: misc
-Priority: optional
-Description: The pfms_connector package makes a bridge between ROS2 and PFMS libraries
-
-Package: ros-humble-pfms
-Version: 0.3.0-0jammy
-Architecture: amd64
-Maintainer: Alen Alempijevic <Alen.Alempijevic@uts.edu.au>
-Installed-Size: 40944
-Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), ros-humble-audibot, ros-humble-gazebo-msgs, ros-humble-husky-gazebo, ros-humble-nav-msgs, ros-humble-rclcpp, ros-humble-rclcpp-components, ros-humble-sensor-msgs, ros-humble-sjtu-drone-bringup, ros-humble-sjtu-drone-control, ros-humble-sjtu-drone-description, ros-humble-std-msgs, ros-humble-std-srvs, ros-humble-tf2, ros-humble-tf2-geometry-msgs, ros-humble-tf2-ros
-Filename: ./ros-humble-pfms_0.3.0-0jammy_amd64.deb
-Size: 35380996
-MD5sum: 21303b39f2d0c43a0dd95775ffdc436d
-SHA1: 7462978300c52d9abb59f5d485bf908ffb3ce9d5
-SHA256: aed5f5591f6e76018bffdae149ca1c23c6511da07af9290a49a19d5bf5db46a5
-Section: misc
-Priority: optional
-Description: The pfms_connector package makes a bridge between ROS2 and PFMS libraries
-
-Package: ros-humble-pfms
 Version: 0.3.1-0jammy
 Architecture: amd64
 Maintainer: Alen Alempijevic <Alen.Alempijevic@uts.edu.au>
@@ -281,6 +220,21 @@ Size: 36375582
 MD5sum: 388395dd657f12ad0e8cf046223494da
 SHA1: bbaaf3c00189738f09d9eeef83f62bcbf85f3f0e
 SHA256: 2045d2336c8e3fc29cdc4d5f61034b95f6f8ae87965d2b6eec15baff81853832
+Section: misc
+Priority: optional
+Description: The pfms_connector package makes a bridge between ROS2 and PFMS libraries
+
+Package: ros-humble-pfms
+Version: 0.3.3-0jammy
+Architecture: amd64
+Maintainer: Alen Alempijevic <Alen.Alempijevic@uts.edu.au>
+Installed-Size: 48185
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), ros-humble-audibot, ros-humble-geometry-msgs, ros-humble-husky-gazebo, ros-humble-nav-msgs, ros-humble-rclcpp, ros-humble-rclcpp-components, ros-humble-rclpy, ros-humble-ros-gz-bridge, ros-humble-ros-gz-interfaces, ros-humble-ros-gz-sim, ros-humble-sensor-msgs, ros-humble-std-msgs, ros-humble-std-srvs, ros-humble-tf2, ros-humble-tf2-geometry-msgs, ros-humble-tf2-ros
+Filename: ./ros-humble-pfms_0.3.3-0jammy_amd64.deb
+Size: 36443348
+MD5sum: ba38a4eaa6317fe23fb1f86e0aec76ab
+SHA1: 33b6fc8b276ca03d539dfe03ad4a3129b49565a6
+SHA256: 26c7a9d6575a40d1d05b42192e28d698b3b7ca583c9009c23eab7dc0960ae1cb
 Section: misc
 Priority: optional
 Description: The pfms_connector package makes a bridge between ROS2 and PFMS libraries
