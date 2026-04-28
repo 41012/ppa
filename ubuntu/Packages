@@ -254,6 +254,22 @@ Section: misc
 Priority: optional
 Description: TODO: Package description
 
+Package: ros-humble-sjtu-drone-bringup
+Version: 0.0.1-0jammy
+Architecture: amd64
+Maintainer: Georg Novotny <georg.novtony@aon.at>
+Installed-Size: 72
+Depends: ros-humble-imu-tools, ros-humble-joint-state-publisher, ros-humble-rclpy, ros-humble-robot-state-publisher, ros-humble-rviz2, ros-humble-teleop-twist-keyboard, ros-humble-xacro, xterm
+Filename: ./ros-humble-sjtu-drone-bringup_0.0.1-0jammy_amd64.deb
+Size: 10330
+MD5sum: cc055742eb6318ca8e677fa01e8805f8
+SHA1: e29110f4d37d956fd0d87f7524d4f07c23c95a00
+SHA256: f6fd261678d2c1e05559c5a1338ef0e0e7efc52d8d1a08ec7c27cbadef708080
+Section: misc
+Priority: optional
+Homepage: https://index.ros.org/p/sjtu_drone_bringup/#humble
+Description: TODO: Package description
+
 Package: ros-humble-sjtu-drone-control
 Version: 0.0.0-0jammy
 Architecture: amd64
@@ -297,5 +313,21 @@ SHA1: e02d63c0cca719803b840517450521767cd381ee
 SHA256: b42255772ac155fb8c39aaa3babf6c63bcb8acd9a7ff131f67f81ade1d07b0bf
 Section: misc
 Priority: optional
+Description: TODO: Package description
+
+Package: ros-humble-sjtu-drone-description
+Version: 0.0.2-0jammy
+Architecture: amd64
+Maintainer: Georg Novotny <georg.novtony@aon.at>
+Installed-Size: 1816
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libignition-common4 (>= 4.8.0), libignition-gazebo6 (>= 6.17.1), libignition-math6 (>= 6.16.0), libignition-msgs8 (>= 8.7.0), libprotobuf23 (>= 3.12.4), libsdformat12 (>= 12.9.0), libstdc++6 (>= 11), ros-humble-geometry-msgs, ros-humble-nav-msgs, ros-humble-rclcpp, ros-humble-ros-ign, ros-humble-ros-ign-gazebo, ros-humble-sensor-msgs, ros-humble-std-msgs, ros-humble-tf2-geometry-msgs, ros-humble-tf2-ros
+Filename: ./ros-humble-sjtu-drone-description_0.0.2-0jammy_amd64.deb
+Size: 297848
+MD5sum: 89633dd0029d3a293da85ed62c98b3e6
+SHA1: a0f4b86e15fbbb2ccdaf112265f24b8d05de3279
+SHA256: 04710dab131e162b0d8bda23cf4ffb43d55430482e783d3369bd45c7f109ae98
+Section: misc
+Priority: optional
+Homepage: https://index.ros.org/p/sjtu_drone_description/#humble
 Description: TODO: Package description
 
