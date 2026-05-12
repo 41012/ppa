@@ -317,3 +317,19 @@ Priority: optional
 Homepage: https://index.ros.org/p/sjtu_drone_description/#humble
 Description: TODO: Package description
 
+Package: ros-humble-sjtu-drone-description
+Version: 0.0.3-0jammy
+Architecture: amd64
+Maintainer: Georg Novotny <georg.novtony@aon.at>
+Installed-Size: 1817
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libignition-common4 (>= 4.8.0), libignition-gazebo6 (>= 6.17.1), libignition-math6 (>= 6.16.0), libignition-msgs8 (>= 8.7.0), libprotobuf23 (>= 3.12.4), libsdformat12 (>= 12.9.0), libstdc++6 (>= 11), ros-humble-geometry-msgs, ros-humble-nav-msgs, ros-humble-rclcpp, ros-humble-ros-ign, ros-humble-ros-ign-gazebo, ros-humble-sensor-msgs, ros-humble-std-msgs, ros-humble-tf2-geometry-msgs, ros-humble-tf2-ros
+Filename: ./ros-humble-sjtu-drone-description_0.0.3-0jammy_amd64.deb
+Size: 297898
+MD5sum: 53e9420155f05ab0392b4692786ff961
+SHA1: 19dddbb696a048c5898321b96d7bc550f8e9e2f2
+SHA256: 2abc6d9ad537e318462b66dbb2202f5686bb99c3039d36e434cc6c0011bc893f
+Section: misc
+Priority: optional
+Homepage: https://index.ros.org/p/sjtu_drone_description/#humble
+Description: TODO: Package description
+
