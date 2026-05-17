@@ -255,6 +255,22 @@ Priority: optional
 Homepage: https://index.ros.org/p/pfms/#humble
 Description: The pfms package makes a bridge between ROS2 and PFMS libraries, provies support for assessments
 
+Package: ros-humble-pfms
+Version: 0.3.5-0jammy
+Architecture: amd64
+Maintainer: Alen Alempijevic <Alen.Alempijevic@uts.edu.au>
+Installed-Size: 43819
+Depends: libc6 (>= 2.34), libgcc-s1 (>= 3.3.1), libstdc++6 (>= 11), ros-humble-audibot, ros-humble-geometry-msgs, ros-humble-husky-gazebo, ros-humble-nav-msgs, ros-humble-rclcpp, ros-humble-rclcpp-components, ros-humble-rclpy, ros-humble-ros-gz-bridge, ros-humble-ros-gz-interfaces, ros-humble-ros-gz-sim, ros-humble-sensor-msgs, ros-humble-std-msgs, ros-humble-std-srvs, ros-humble-tf2, ros-humble-tf2-geometry-msgs, ros-humble-tf2-ros
+Filename: ./ros-humble-pfms_0.3.5-0jammy_amd64.deb
+Size: 35348464
+MD5sum: a828c2deff56bd7efe8684c9d7131aba
+SHA1: 79b62239bd55decb9a350ad1b5f476422d32397d
+SHA256: 76220ddf9490ec57a1ba2f0fbab729ba8eae4b80567e1ab3e6afaccc8fe60fef
+Section: misc
+Priority: optional
+Homepage: https://index.ros.org/p/pfms/#humble
+Description: The pfms package makes a bridge between ROS2 and PFMS libraries, provies support for assessments
+
 Package: ros-humble-sjtu-drone-bringup
 Version: 0.0.1-0jammy
 Architecture: amd64
